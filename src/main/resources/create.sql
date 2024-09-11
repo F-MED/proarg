@@ -1,0 +1,2 @@
+DROP TABLE livros IF EXISTS;
+CREATE TABLE livros (codigo INT,titulo VARCHAR(100) NOT NULL,autor VARCHAR(50) NOT NULL ,ano INT,PRIMARY KEY(codigo));
